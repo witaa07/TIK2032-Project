@@ -1,25 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>WITA'S HOMEPAGE</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-------------------------javascript------------------------------>
+  <script src="script.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Wita's Personal Pages</title>
 </head>
-    <!-- This is comment -->
-<h1>WITA'S PAGE</h1>
-<p>
-    <button onclick="window.location.href = 'index.html'"> Home</button>
-    <button onclick="window.location.href = 'galery.html'"> Galery</button>
-    <button onclick="window.location.href = 'blog.html'"> Blog</button>
-    <button onclick="window.location.href = 'contact.html'"> Contact</button>
-</p>
-<hr>
-<h2> Welcome To A Little Haul Of My Page!</h2>
-<p>Hi! I'm a Computer Science student, i was created to create. I'm passionate about graphic design, where creativity meets technology to craft visually captivating solutions. With a keen eye for detail and a love for aesthetic appeal, I enjoy bringing ideas to life through digital artistry.</p>
+<body>
 
-<p>Currently,  I find immense pleasure in exploring the realms of multimedia, leveraging various mediums to convey messages and evoke emotions effectively and I'm a content creator who thrives on crafting engaging narratives, captivating visuals, and thought-provoking ideas. Through my work, I aim to inspire, inform, and entertain audiences across various platforms. Whether it's through writing, photography, videography, or any other medium, I'm dedicated to delivering content that resonates and sparks meaningful conversations</p>
-<p>I aspire to excel in multimedia and content creation, aiming to inspire through creative works that entertain and add value. With determination, I'm committed to making a positive impact in this field. </p>
+     <!--..............................Navbar Start.............................-->
+     <header id="home" style="background-image: url('pohon.jpg'); background-size: cover; background-position: center;">
+        <nav>
+          <div class="nav__bar">
+            <div class="nav__logo"><a href="#">Sabdawita Salibana</a></div>
+            <ul class="nav__links">
+              <li class="link"><a href="#home">Home</a></li>
+              <li class="link"><a href="#about">About</a></li>
+              <li class="link"><a href="#blog">Blog</a></li>
+              <li class="link"><a href="#gallery">Gallery</a></li>
+              <li class="link"><a href="#footer">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="section__container header__container" style="text-align: center;">
+          <h1>Welcome! I'm Sabdawita!</h1>
+          <h4>~ The roots of education are bitter, but the fruit is sweet. ~</h4>
+          <h3><div id="text"></div></h3>
+        </div>
+      </header>            
+       <!--..............................Navbar End.............................-->
 
-<p>Let's embark on a creative journey together!</p>
+       <!--..............................About Start.............................-->
+      <section class="about" id="about">
+  <div class="section__container about__container">
+    <div class="about__content">
+      <h2 class="section__header">About</h2>
+      <p class="section__subheader">
+        Hello everyone, My name is Sabdawita Salibana, and I come from north Minahasa. I'm currently a Computer Science student, specializing at Sam Ratulangi University. Outside of my professional life, I have a wide range of interests that keep me engaged and curious about the world around me.
+      </p>
+      <p class="section__subheader">
+        In addition to my personal interests, I'm deeply committed to doing my best. I believe in the power of God to create positive change in the world, and I strive to incorporate these values into everything I do. Whether it's volunteering in my community, advocating for social justice, or simply lending a helping hand to those in need, I'm always eager to make a difference and leave a lasting impact.
+      </p>
+      <div class="about__flex">
+        <div class="about__card">
+          <p>Student </p>
+        </div>
+        <div class="about__card">
+          <p>Sam Ratulangi</p>
+        </div>
+        <div class="about__card">
+          <p>Computer Science</p>
+        </div>
+      </div>
+    </div>
+    <div class="about__image">
+      <img src="girl.jpg" alt="Image of a girl" style="float: right;">
+    </div>
+  </div>
+</section>
 
+<style>
+  .section__subheader {
+    text-align: justify;
+  }
+</style>
+
+       <!--..............................About End.............................-->
+
+     <!--..............................Blog Start.............................-->
+      <section class="blogs" id="blog">
+        <div class="blogs__container">
+          <h2 class="section__header">Blogs</h2>
+          <p class="section__subheader"  style="text-align: center;">That dream was planted in your heart for a reason</p>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="girl2.jpg">
+                <h4> What it is Multimedia?</h4>
+                <p>Multimedia is the combination of various media such as text, images, sound, video, animation, and interaction used together in one presentation or application. The main purpose of multimedia is to convey information to users in a more engaging, interactive, and effective manner. </p>
+            </div>
+            <div class="card">
+                <img src="ada.jpg">
+                <h4> Who is Ada Lovelace? </h4>
+                <p> Augusta Ada King, Countess of Lovelace (1815–1852), better known as Ada Lovelace, was an English mathematician recognized as the first computer programmer. She collaborated with Charles Babbage, a mathematician and computer scientist, who invented a mechanical computing device called the "Analytical Engine". Lovelace realized the potential of this machine and wrote notes outlining how it could be used to perform various calculations, making her the author of the first computer algorithm ever written.</p>
+
+            </div>
+            <div class="card">
+                <img src="bc.jpg">
+                <h4> What it is Blockchain?</h4>
+                <p> Blockchain is a decentralized network of interconnected blocks containing validated transactions, cryptographically linked together. It ensures transparency, security, and decentralization. Widely used in finance, logistics, and healthcare for its innovative applications like cryptocurrencies and supply chain management.</p>
+
+                </div>
+        </div>
+    </div>
+</div>
+  
+      </section>
+       <!--..............................Blog End.............................-->
+
+      <!--..............................Gallery Start.............................-->
+      <section class="gallery" id="gallery">
+        <div class="gallery__container">
+          <h2 class="section__header">Gallery</h2>
+          <p class="section__subheader" style="text-align: center;">
+            Wita's Pictures
+          </p>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="me1.jpg">
+                <img src="me1.jpg" alt="daily" width="600" height="400">
+              </a>
+              <div class="desc">Star light</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="me2.jpg">
+                <img src="me2.jpg" alt="Books" width="600" height="400">
+              </a>
+              <div class="desc">books</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="me3.jpg">
+                <img src="me3.jpg" alt="mylove" width="600" height="400">
+              </a>
+              <div class="desc">The love of my life</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="me4.jpg">
+                <img src="me4.jpg" alt="daily" width="600" height="400">
+              </a>
+              <div class="desc">The Avengers</div>
+            </div>
+          </div>
+      </section>
+    <!--..............................Gallery End.............................-->
+
+    <!--..............................Footer Start.............................-->
+      <section class="footer" id="footer">
+          <div class="social">
+            <a href="https://www.facebook.com/sabdawita.salibana?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/s.wita._?igsh=MXBjMWk0MHljbWEwdg=="><i class="fab fa-instagram"></i></a>
+          </div>
+
+          <ul class="list">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+          </ul>
+      </section>
+    <!--..............................Footer End.............................-->
+      
+  
 </body>
 </html>
